@@ -1,0 +1,33 @@
+package com.retail.model;
+
+public class BillItem {
+
+    private Product product;
+    private double discount;
+    private int quantity;
+        
+    public int getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+    public Product getProduct() {
+        return product;
+    }
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+    
+    public double getDiscount() {
+        return discount;
+    }
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
+    @Override
+    public String toString() {
+        return "[Product=" + product + ", discountedPrice=" + discount + ", quantity=" + quantity + "]";
+    }
+        
+}

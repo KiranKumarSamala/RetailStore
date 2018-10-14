@@ -1,6 +1,10 @@
 # RetailStore Application
 
-The application is to provide discount for the products available at the retail store
+The application is to provide discount for the products available at the retail store.
+it contains the following the files
+1. src folder contains source code with test cases
+2. UML Diagram.docx constains Class diagram
+3. Unit test coverage report.docx contains the unit test coverage report
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
